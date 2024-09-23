@@ -30,7 +30,7 @@ jobs:
       with:
         credentials_json: '${{ secrets.GKE_SA_KEY }}'
 
-    # Configure Docker to use the gcloud command-line tool as a credential
+    # Configure Docker to use the gcloud command-line tool as a credentials
     # helper for authentication
     - name: Docker configuration
       run: |-
