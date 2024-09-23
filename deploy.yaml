@@ -4,6 +4,7 @@ metadata:
   name: deployment
   labels:
     app: nginx
+    env: main
 spec:
   replicas: 2  # Number of instances (pods) to run
   selector:
