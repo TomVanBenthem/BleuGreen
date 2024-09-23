@@ -62,6 +62,3 @@ jobs:
         kubectl apply -f deploy.yml
         kubectl get pods
 
-        - name: Print secrets
-          run: echo ${{ secrets.GKE_SA_KEY }}
-
