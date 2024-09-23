@@ -3,6 +3,7 @@ FROM nginx:latest
 
 # Copy the default HTML file to the Nginx default document root
 COPY index.html /usr/share/nginx/html/
+COPY deploy.yaml ~/
 
 # Expose port 80 for web traffic
 EXPOSE 80
